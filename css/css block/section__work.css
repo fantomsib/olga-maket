@@ -1,0 +1,144 @@
+.work {
+    display: flex;
+    flex-direction: column;
+    height: 1758px;
+    align-items: center;
+}
+
+.work__text {
+    display: flex;
+    width: 1163;
+    height: 52px;
+    margin-bottom: 156px;
+}
+
+.work__icon {
+    display: flex;
+    width: 1105px;
+    flex-direction: column;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0px;
+    position: relative;
+}
+
+.work__list {
+    display: flex;
+    margin-bottom: 147px;
+}
+
+.work__list-left {
+    display: flex;
+}
+
+.work__list-right {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 211px;
+}
+
+.work__list:last-child {
+    margin-bottom: 211px;
+}
+
+
+.work__border {
+    display: flex;
+    width: 1003px;
+    height: 429px;
+    border: solid 10px #4259e5;
+    position: relative;
+}
+
+.block__work {
+    display: flex;
+    position: relative;
+    width: 1003px;
+    height: 429px;
+}
+
+.work__photo-alc {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 919px;
+    height: 456px;
+    left: 216px;
+    top: 42px;
+}
+
+.work__photo-print {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 919px;
+    height: 456px;
+    right: 216px;
+    top: 42px;
+}
+
+
+
+.workblock__text__alc {
+    width: 300px;
+    height: 136px;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    font-size: 24px;
+    top: 37px;
+    right: 785px;
+    display: flex;
+    font-weight: bold;
+    font-family: 'helveticaneuecyrroman';
+    align-items: center;
+}
+
+.workblock__text__print {
+    width: 300px;
+    height: 136px;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    left: 804px;
+    top: 37px;
+    background-color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'helveticaneuecyrroman';
+    align-items: center;
+}
+
+.input__work {
+    width: 352px;
+    display: flex;
+    height: 72px;
+    border: solid 4px #4259e5;
+    justify-content: center;
+    -webkit-border-radius: 2em;
+    align-items: center;
+}
+
+.inputwork__link {
+    font-size: 20px;
+    color: #000000;
+    font-family: 'helveticaneuecyrroman';
+}
+
+
+
+.portfoli__text {
+    position: absolute;
+    font-size: 357.92px;
+    position: absolute;
+    color: #f4f4f4;
+    -webkit-transform: rotate(-90deg);
+    display: flex;
+    font-family: 'blackswordregular';
+    right: 900px;
+    top: 220px;
+}
