@@ -19,21 +19,21 @@
 
 @font-face {
     font-family: 'blackswordregular';
-    src: url('./font/blacksword-webfont.woff2') format('woff2'), url('/font/blacksword-webfont.woff2') format('woff');
+    src: url('./font/blacksword-webfont.woff2') format('woff2'), url('./font/blacksword-webfont.woff2') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'helveticaneuecyrlight';
-    src: url('./font/helveticaneuecyr-light-webfont.woff2') format('woff2'), url('/font/helveticaneuecyr-light-webfont.woff') format('woff');
+    src: url('./font/helveticaneuecyr-light-webfont.woff2') format('woff2'), url('./font/helveticaneuecyr-light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'helveticaneuecyrroman';
-    src: url('./font/helveticaneuecyr-roman-webfont.woff2') format('woff2'), url('/font/helveticaneuecyr-roman-webfont.woff') format('woff');
+    src: url('./font/helveticaneuecyr-roman-webfont.woff2') format('woff2'), url('./font/helveticaneuecyr-roman-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
