@@ -269,6 +269,12 @@ ul {
     font-family: 'helveticaneuecyrroman';
 }
 
+.input__1:hover {
+    background-color: #000000;
+    color: #ffffff;
+    border-color: #000000;
+ }
+
 .input {
     display: flex;
     font-size: 20px;
@@ -399,6 +405,12 @@ ul {
     align-items: center;
 }
 
+.input__work:hover {
+    background-color: #000000;
+    color: #ffffff;
+    border-color: #000000;
+ }
+
 .inputwork__link {
     font-size: 20px;
     color: #000000;
@@ -518,6 +530,11 @@ ul {
     align-items: center;
 }
 
+.input__master:hover {
+    background-color: #000000;
+    color: #ffffff;
+    border-color: #000000;
+ }
 .inputmaster__link {
     font-size: 20px;
     color: #000000;
@@ -601,11 +618,17 @@ ul {
     width: 352px;
     display: flex;
     height: 72px;
-    border: solid 4px black;
+    border: solid 4px #4259e5;
     justify-content: center;
     -webkit-border-radius: 2em;
     align-items: center;
+    color: #000000;
     
+}
+.input__textarea:hover {
+    background-color: #000000;
+    color: #ffffff;
+    border-color: #000000;
 }
 
 .link__textarea {
