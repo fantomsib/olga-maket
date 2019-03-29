@@ -1,3 +1,5 @@
+/*
+
 @import url("/css/interface.css");
 @import url("/css/header.css");
 @import url("/css/section__about__as.css");
@@ -8,32 +10,32 @@
 @import url("/css/section__textarea.css");
 @import url("/css/footer.css");
 
-
+*/
 
 @font-face {
     font-family: 'bebas_neueregular';
-    src: url("./font/bebas_neue_regular-webfont.woff2") format('woff2'), url("./font/bebas_neue_regular-webfont.woff") format('woff');
+    src: url('../font/bebas_neue_regular-webfont.woff2') format('woff2'), url('../font/bebas_neue_regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'blackswordregular';
-    src: url("./font/blacksword-webfont.woff2") format('woff2'), url("./font/blacksword-webfont.woff2") format('woff');
+    src: url('../font/blacksword-webfont.woff2') format('woff2'), url("./font/blacksword-webfont.woff2") format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'helveticaneuecyrlight';
-    src: url("./font/helveticaneuecyr-light-webfont.woff2") format('woff2'), url("./font/helveticaneuecyr-light-webfont.woff") format('woff');
+    src: url('../font/helveticaneuecyr-light-webfont.woff2') format('woff2'), url('../font/helveticaneuecyr-light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'helveticaneuecyrroman';
-    src: url("./font/helveticaneuecyr-roman-webfont.woff2") format('woff2'), url("./font/helveticaneuecyr-roman-webfont.woff") format('woff');
+    src: url('../font/helveticaneuecyr-roman-webfont.woff2') format('woff2'), url('../font/helveticaneuecyr-roman-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -142,7 +144,7 @@ ul {
     width: 625px;
     height: 462px;
     display: flex;
-    font-family: "blackswordregular";
+    font-family: 'blackswordregular';
     padding-left: 223px;
     text-align: center;
 }
@@ -603,7 +605,7 @@ ul {
     justify-content: center;
     -webkit-border-radius: 2em;
     align-items: center;
-    background-color: #000000;
+    
 }
 
 .link__textarea {
